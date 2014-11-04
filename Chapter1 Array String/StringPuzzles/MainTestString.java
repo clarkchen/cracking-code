@@ -1,11 +1,9 @@
-package StringTest;
+package StringPuzzles;
 import static org.junit.Assert.*;
 
 import java.util.*;
 
 import org.junit.Test;
-
-import StringPuzzles.Main;
 
 /**
  * @author chenxi
