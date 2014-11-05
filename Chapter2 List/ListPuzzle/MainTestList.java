@@ -36,4 +36,19 @@ public class MainTestList {
 		assertTrue(rt.value==1);
 	}
 
+	@Test
+	//2.3 deleteNodeFrom
+	public void deleteNodeFrom()
+	{
+		int a[] = {1,2,3,4,5,6,7,8,9,10};
+		MyList ml = new MyList();
+		ml.insert(a);
+		
+		Node n = ml.search(7);
+		m.deleteNodeFrom(n);
+		int b[] = {1,2,3,4,5,6,8,9,10};
+		ml.output();
+		assertTrue(ml.equalTest(b));
+		
+	}
 }

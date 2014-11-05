@@ -48,6 +48,27 @@ public class Main {
 		
 		return rt;
 	}
+	//2.3 delete a node and you can only visit it 
+	//we can only do this if the node has a next element 
+	//reset all the value of nodes after n 
+	public void deleteNodeFrom(Node n)
+	{
+		if(n==null||n.next==null)
+		{
+			System.out.println("Can not handle such situation");
+			return;
+		}
+		Node cur = n.next, pre = n;
+		while(cur.next!=null)
+		{
+			pre.value = cur.value;
+			cur = cur.next;
+			pre = pre.next;
+		}
+		pre.value = cur.value;
+		pre.next = null;
+	}
+	
 	/**
 	 * @param args
 	 */
