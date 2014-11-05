@@ -1,8 +1,8 @@
-package ListPuzzle;
+package MyList;
 import java.util.*;
 public class MyList {
-	Node head,tail;
-	int size = 0;
+	public Node head,tail;
+	public int size = 0;
 	public void insert(int a[])
 	{
 		if(a==null||a.length==0) return;

@@ -1,8 +1,8 @@
-package ListPuzzle;
+package MyList;
 import java.util.*;
 public class Node {
-	Integer value;
-	Node next;
+	public Integer value;
+	public Node next;
 	public Node(Integer value, Node next) {
 		 
 		this.value = value;

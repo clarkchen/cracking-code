@@ -3,6 +3,9 @@
  */
 package ListPuzzle;
 import java.util.*;
+
+import MyList.MyList;
+import MyList.Node;
 /**
  * @author chenxi
  *

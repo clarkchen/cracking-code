@@ -5,6 +5,15 @@ import java.util.*;
 
 import org.junit.Before;
 import org.junit.Test;
+
+import MyList.MyList;
+import MyList.Node;
+
+
+/**
+ * @author chenxi
+ * 为链表类写的测试脚本
+ */
 public class MainTestList {
 	Main m = new Main();
 	@Before
